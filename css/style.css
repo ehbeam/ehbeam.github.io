@@ -6,7 +6,6 @@
 
 body {
 	-webkit-font-smoothing: subpixel-antialiased;
-	/* -webkit-font-smoothing: antialiased; */
 	-moz-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizelegibility;
@@ -25,8 +24,6 @@ html,
 .root {
 	font-size: 18px;
 	line-height: 29px;
-	/* font-size: 1.6111111vh;
-line-height: 3.2222222vh; */
 }
 
 body,
@@ -86,11 +83,8 @@ h4,
 h5,
 .h5 {
 	color: #771111;
-	/* #0F1E4E; */
-	/* color: #484848; */
 	text-transform: uppercase;
 	font-weight: 800;
-	/* 700 */
 	letter-spacing: 0.025rem;
 	font-size: 0.722rem;
 	line-height: 1.6111111em;
@@ -98,7 +92,6 @@ h5,
 	margin-bottom: 0;
 }
 
-/* ol reset */
 ol {
 	list-style: none;
 	margin: 0;
@@ -111,7 +104,6 @@ ol {
 
 p,
 ul,
-/* ol, */
 pre,
 table,
 blockquote {
@@ -146,7 +138,6 @@ ol ul {
 
 /* GENERAL COSMETICS *********************************** */
 
-/* h1 {font-family: 'Anton', sans-serif; color: #121212; font-weight: 700; text-transform:uppercase;}  */
 body,
 h1,
 h2,
@@ -191,8 +182,6 @@ a {
 .grid-opening-hours {
 	color: #333;
 }
-
-/* #444 */
 
 a:hover {
 	color: black;
@@ -246,8 +235,6 @@ hr.shorted {
 	color: #AAA;
 }
 
-/* WHY WAS THIS BELOW ACTIVATED? */
-/* a, */
 b,
 i,
 strong,
@@ -351,11 +338,6 @@ sub {
 	line-height: 1rem;
 }
 
-.img-frame {
-	border: 1px solid #a8a8a8;
-	/* #a4a4a4 */
-}
-
 .central-img {
 	justify-content: center; 
 	display: flex;
@@ -369,13 +351,6 @@ sub {
 	border-left: 2px solid black;
 	padding: 0.5rem 1rem;
 	margin-left: 0.75rem;
-	/* border-top: 1px solid black; 
-	border-bottom: 1px solid black; 
-	padding: 0.4em 0;
-	margin-left: 0.625em;
-	margin-right: 0.625em; */
-	/* padding-left:0.5em; 
-	padding-right:0.5em; */
 }
 
 
@@ -421,7 +396,6 @@ sub {
 
 .acquire {
 	font-weight: 700;
-	/* text-decoration: underline; */
 }
 
 .por {
@@ -459,7 +433,7 @@ sub {
 }
 
 .button:hover {
-	background: #c4c4c4;
+	background: #ccca99;
 	transition: 0.3s;
 }
 
@@ -479,14 +453,7 @@ sub {
 	transition: 0.3s;
 }
 
-/* .modal-text>button, article>button {
-	float: right;
-} */
-
 .button-buy {
-	/* margin-top: 1.6111111rem; */
-	/* margin-bottom: 1.6111111rem; */
-	/* display: inline-block; */
 	float: right;
 	max-width: 132px;
 }
@@ -495,38 +462,6 @@ sub {
 	max-width: 150px !important;
 	padding: 0 30px;
 }
-
-/* .btn-hover-buy {
-	max-width: 132px;
-} */
-
-/* border: 2.5px solid #eee; */
-
-/* TO DISPLAY 'ACHETER' ON HOVER: */
-/* button.btn-hover-buy:hover > span {
-	display: none;
-}
-button.btn-hover-buy:hover:before {
-	content: "ACHETER";
-} */
-
-/* TO DISPLAY PRICE ON HOVER: */
-/* ***DEPRECATED*** */
-/* button.btn-hover-buy > span {
-	display: none;
-}
-
-button.btn-hover-buy:before {
-	content: "ACHETER";
-}
-
-button.btn-hover-buy:hover:before {
-	content: "";
-}
-
-button.btn-hover-buy:hover > span {
-	display: block;
-} */
 
 .drop-shadow {
 	/* max-width: 80%;
@@ -539,17 +474,6 @@ button.btn-hover-buy:hover > span {
 	align-self: flex-end;
 }
 
-/* button.ext-link > span:after {
-	content: ' ⌝';
-	position: relative;
-	top: -5px;
-	right: -5px;
-} */
-
-/* .icon-square:after {
-	content: url(./svg/square_44px_icon.svg);
-} */
-
 .button-icon svg {
 	width: 21px;
 	height: 21px;
@@ -559,190 +483,8 @@ button.btn-hover-buy:hover > span {
 	margin-top: -3px !important;
 }
 
-/* Old Values */
-/* padding-left: 10px;
-	margin-bottom: -6px;
-	margin-right: -16px; */
-
-/* Left-Side Icon */
-/* padding-right: 10px;
-	padding-bottom: 1px;
-	margin-bottom: -6px;
-	margin-left: -16px; */
-
-
 .button-icon:hover svg {
 	filter: invert(0%);
-	/*background-color: #e71d13;*/
-}
-
-
-
-/* OPENING HOURS *************************************** */
-
-.grid-opening-hours {
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	grid-template-rows: repeat(7, 1fr);
-	grid-column-gap: 0.75rem;
-	grid-row-gap: 0;
-	justify-content: flex-start;
-	grid-template-areas:
-		"Monday Monday-Hours"
-		"Tuesday Tuesday-Hours"
-		"Wednesday Wednesday-Hours"
-		"Thursday Thursday-Hours"
-		"Friday Friday-Hours"
-		"Saturday Saturday-Hours"
-		"Sunday Sunday-Hours";
-}
-
-.Monday {
-	grid-area: Monday;
-}
-
-.Monday-Hours {
-	grid-area: Monday-Hours;
-}
-
-.Tuesday {
-	grid-area: Tuesday;
-}
-
-.Tuesday-Hours {
-	grid-area: Tuesday-Hours;
-}
-
-.Wednesday {
-	grid-area: Wednesday;
-}
-
-.Wednesday-Hours {
-	grid-area: Wednesday-Hours;
-}
-
-.Thursday {
-	grid-area: Thursday;
-}
-
-.Thursday-Hours {
-	grid-area: Thursday-Hours;
-}
-
-.Friday {
-	grid-area: Friday;
-}
-
-.Friday-Hours {
-	grid-area: Friday-Hours;
-}
-
-.Saturday {
-	grid-area: Saturday;
-}
-
-.Saturday-Hours {
-	grid-area: Saturday-Hours;
-}
-
-.Sunday {
-	grid-area: Sunday;
-}
-
-.Sunday-Hours {
-	grid-area: Sunday-Hours;
-}
-
-.grid-opening-hours-simplified {
-	display: grid;
-	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 0.75rem;
-	grid-row-gap: 0;
-	/* grid-template-areas: "grid-open hours" "grid-rdv rdv"; */
-	grid-template-areas:
-		"grid-open hours"
-		"grid-open-wknd hours-wknd"
-		"grid-rdv rdv";
-	justify-content: flex-start;
-}
-
-.grid-open {
-	grid-area: grid-open;
-}
-
-.hours {
-	grid-area: hours;
-}
-
-.grid-open-wknd {
-	grid-area: grid-open-wknd;
-}
-
-.hours-wknd {
-	grid-area: hours-wknd;
-}
-
-.grid-rdv {
-	grid-area: grid-rdv;
-}
-
-.rdv {
-	grid-area: rdv;
-}
-
-
-/* CAROUSEL ******************************************** */
-
-
-.carousel {
-	/* margin: 0 auto; */
-	overflow: hidden;
-	text-align: center;
-	/* width: 100%; */
-	padding: 1em 0;
-}
-
-.slides {
-	display: flex;
-	overflow-x: scroll;
-	scrollbar-width: none;
-	scroll-snap-type: x mandatory;
-	scroll-behavior: smooth;
-}
-
-.slides::-webkit-scrollbar {
-	display: none;
-}
-
-.slides-item {
-	align-items: center;
-	display: flex;
-	flex-shrink: 0;
-	justify-content: center;
-	margin: 0 0.5rem;
-	position: relative;
-	scroll-snap-align: start;
-	transform: scale(1);
-	transform-origin: center center;
-	transition: transform .5s;
-	width: 100%;
-}
-
-.carousel_nav {
-	padding: 0;
-}
-
-.slider-nav {
-	align-items: center;
-	background-color: #c70000;
-	border-radius: 0;
-	color: #c70000;
-	display: inline-flex;
-	height: 2px;
-	justify-content: center;
-	position: relative;
-	text-decoration: none;
-	width: 2rem;
 }
 
 
