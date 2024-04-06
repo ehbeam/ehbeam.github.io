@@ -25,13 +25,6 @@
 	<link rel="shortcut icon" href="./icons/brain-gear.png">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'UA-44116759-4');
-	</script>
-
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/layout.css">
 
@@ -42,15 +35,15 @@
 
 	<ul class="nav" id="nav">
 
-		<li class="main-nav header active" id="espace230">
+		<li class="main-nav header active" id="Ellie Beam">
 			<div class="section-title">
 				<a class="nav-link" href="">
 					<img src="./svg/name.svg" alt="Ellie Beam">
 				</a>
 			</div>
-			<div class="section-content splash">
-				<section class="main-content" style="max-width:unset">
-					<img style="width:100%; height:auto; max-width: 560px;"src="./svg/logo.svg" alt="Ellie Beam, MD/PhD">
+			<div class="section-content splash" style="overflow:hidden;">
+				<section class="main-content">
+					<img style="width:100%"src="./svg/logo.svg" alt="Ellie Beam, MD/PhD">
 				</section>
 			</div>
 		</li>
@@ -71,15 +64,15 @@
 				<section class="main-content">
 					
 					<br>
-					<div style="justify-content:center; display:flex;">
-						<img style="width:40%;" src="./images/default.png" alt="Ellie Beam">
+					<div class="image-container">
+						<img style="width:45%;" src="./images/default.png" alt="Ellie Beam">
 					</div>
 					<br>
 
 					<p><h4>Dr. Ellie Beam</h4> is a physician-scientist seeking to advance mental healthcare through computational and humanistic approaches. She works at Stanford Health Care as a resident in psychiatry on the research track. Her interests outside the hospital include writing, running, and eating plants.</p>
 					<br>
-					<div style="justify-content:center; display:flex;">
-						<button class="button" onclick="window.open('documents/CV_Beam_240322.pdf')">Curriculum Vitae</button>
+					<div class="image-container">
+						<button class="button" onclick="window.open('documents/CV_Beam_240322.pdf')"><b>Curriculum Vitae</b></button>
 					</div>
 					<br><br>
 					
@@ -122,6 +115,21 @@
 						<div><a href="https://www.chagrinvalleytoday.com/communities/chagrinvalleyarchives/article_83a72034-8300-59f6-a2d0-6ccb1dd6e37d.html" target="_blank"><i>The Plain Dealer</i> Student of the Week ⇢</a></div>
 						<!-- <div><a href="https://issuu.com/gilmouracademy/docs/gilmour_summer_2009?pageNumber=23" target="_blank">Gilmour Magazine Feature on Student Art ⇢</a></div> -->
 					</div>
+					<br><br>
+
+					<div class="horizontal-line"></div>
+					
+					<br>
+					<h2>On the Web</h2>
+					<section class="social-thumbnail">
+					<div class="image-container" style="padding-top:10px">
+						<a href="https://www.linkedin.com/in/elizabethbeam" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" /></a>&ensp;
+						<a href="https://scholar.google.com/citations?user=Dr0-TOUAAAAJ&hl=en" target="_blank"><img src="images/google-scholar.png" alt="Google Scholar" /></a>&ensp;
+						<a href="https://github.com/ehbeam" target="_blank"><img src="images/github.png" alt="Github" /></a>&ensp;
+						<a href="https://twitter.com/ellie_beam" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a>
+					</div>
+					</section>
+
 
 					<!-- PAGE FOOTER -->
 					<br><br><hr>
@@ -146,25 +154,24 @@
 
 			<div class="section-content">
 				<section class="main-content">
-
-					<br><br>
-					<div class="frame-wrap">
+					<br>
+					<div class="frame-wrap"></a>
 						<iframe src="https://neuro-knowledge.org"></iframe>
 					</div>
-					<br>
+					<br><br>
 
-					<div>
-						<img style="float:left; width:120px; margin-top:5px; margin-right:30px; margin-bottom:5px" src="./images/brain-network.png" alt="Brain network">
+					<div style="">
+						<img style="float:left; width:120px; margin-top:5px; margin-right:30px; margin-bottom:5px" src="images/brain-network.png" alt="Brain network">
 						<h1>Data-driven ontology of brain function</h1>
-						<p>In modern healthcare, there is no accepted system for diagnosing disorders of mental function based on the altered brain systems that cause them. In neuroscience, there is no consensus on what a brain system is. My PhD thesis took a data-driven approach to mapping domains of brain function across the human neuroimaging literature. Neural circuits and associated mental functions were mapped from the brain coordinate data and full texts of nearly 20,000 studies. The resulting domains characterize several novel brain circuits that are absent from the conceptually dominant expert-determined frameworks in the field. The ontology can be viewed in an interactive format at <a href="https://neuro-knowledge.org/" target="_blank">neuro-knowledge.org</a>.</p>
+						<p>In modern healthcare, there is no accepted system for diagnosing disorders of mental function based on the altered brain systems that cause them. In neuroscience, there is no consensus on what a brain system is. My PhD thesis took a data-driven approach to mapping domains of brain function across the human neuroimaging literature. Neural circuits and associated mental functions were mapped from the brain coordinate data and full texts of nearly 20,000 studies. The resulting domains characterize several novel brain circuits that are absent from the conceptually dominant expert-determined frameworks in the field. The ontology can be viewed above and at <a href="https://neuro-knowledge.org/" target="_blank"><b>neuro-knowledge.org</b></a>.</p>
 						<br>
 
-						<img style="float:left; width:150px; margin-top:30px; margin-left:5px; margin-right:25px; margin-bottom:10px" src="./images/broken-network.png" alt="Disrupted brain network">
+						<img style="float:left; width:150px; margin-top:30px; margin-left:5px; margin-right:25px; margin-bottom:10px" src="images/broken-network.png" alt="Disrupted brain network">
 						<h1>Brain network disruption in mental illness</h1>
 						<p>Mood disorders affect not only the way people feel, but also the way they plan and process information. The frontoparietal control network is believed to play a crucial role in support of goal-directed planning and adaptive behavioral adjustments. As part of my post-undergraduate work, I examined the integrity of the frontoparietal circuitry in young adults showing signs of depressive illness onset. Deficits in executive functioning were found to predict a decline in frontoparietal network integrity.</p>
 						<br>
 
-						<img style="float:left; width:100px; margin-top:25px; margin-left:5px; margin-right:35px; margin-bottom:10px" src="./images/journal.png" alt="Neuroscience journal">
+						<img style="float:left; width:100px; margin-top:25px; margin-left:5px; margin-right:35px; margin-bottom:10px" src="images/journal.png" alt="Neuroscience journal">
 						<h1>The semantic structure of neuroscience</h1>
 						<p>Human neuroscience is a linking discipline that seeks to understand relationships between the systems of the brain and the processes of the mind. As an undergraduate, I visualized the semantic structure of human neuroscience by mapping co-occurrences of anatomical and psychological terms in fMRI article abstracts. Graph theoretical analyses identified topics that were likely to advance the integrative goal of the field.</p>
 						<br>
@@ -177,43 +184,43 @@
 
 					<h3>Peer-Reviewed Articles</h3>
 					<ul>
-						<li>Tu, J., Tran, D., Beam, E.H. (2022). Neurocysticercosis. RSNA Case Collection. DOI: 10.1148/cases.20226020.</li>
-						<li>Beam, E.H., Potts, C., Poldrack, R.A., & Etkin, A. (2021). A data-driven framework for mapping domains of human neurobiology. Nature Neuroscience. DOI: 10.1038/s41593-021-00948-9.</li>
-						<li>Siless, V., Davidow, J.Y., Nielsen, J., Fan, Q., Hedden, T., Hollinshead, M., Beam, E.H., Vidal Bustamante, C.M., Garrad, M.C., Santillana, R., Smith, E.E., Hamadeh, A., Snyder, J., Drews, M.K., Van Dijk, K.R.A., Sheridan, M., Somerville, L.H., Yendiki, A. (2020). Registration-free analysis of diffusion MRI tractography data across subjects through the human lifespan. NeuroImage 214(116703). DOI: 10.1016/j.neuroimage.2020.116703.</li>
-						<li>Beam, E.H.,* Appelbaum, L.G.,* Jack, J., Moody, J., & Huettel, S.A. (2014). Mapping the semantic structure of cognitive neuroscience. Journal of Cognitive Neuroscience 26(9). DOI: 10.1162/jocn_a_00604.</li>
+						<li><a href="https://cases.rsna.org" target="_blank">Tu, J., Tran, D., Beam, E.H. (2022). Neurocysticercosis. <i>RSNA Case Collection</i>. DOI: 10.1148/cases.20226020.</a></li>
+						<li><a href="https://www.nature.com/articles/s41593-021-00948-9" target="_blank">Beam, E.H., Potts, C., Poldrack, R.A., & Etkin, A. (2021). A data-driven framework for mapping domains of human neurobiology. <i>Nature Neuroscience</i>. DOI: 10.1038/s41593-021-00948-9.</a></li>
+						<li><a href="https://www.sciencedirect.com/science/article/pii/S1053811920301907" target="_blank">Siless, V., Davidow, J.Y., Nielsen, J., Fan, Q., Hedden, T., Hollinshead, M., Beam, E.H., Vidal Bustamante, C.M., Garrad, M.C., Santillana, R., Smith, E.E., Hamadeh, A., Snyder, J., Drews, M.K., Van Dijk, K.R.A., Sheridan, M., Somerville, L.H., Yendiki, A. (2020). Registration-free analysis of diffusion MRI tractography data across subjects through the human lifespan. <i>NeuroImage</i> 214(116703). DOI: 10.1016/j.neuroimage.2020.116703.</a></li>
+						<li><a href="https://direct.mit.edu/jocn/article-abstract/26/9/1949/28256/Mapping-the-Semantic-Structure-of-Cognitive" target="_blank">Beam, E.H.,* Appelbaum, L.G.,* Jack, J., Moody, J., & Huettel, S.A. (2014). Mapping the semantic structure of cognitive neuroscience. <i>Journal of Cognitive Neuroscience</i> 26(9). DOI: 10.1162/jocn_a_00604.</a></li>
 					</ul>
 
 					<h3>Community Articles</h3>
 					<ul>
-						<li>Beam, E.H. (2022). Multiple immune cell types and a checkpoint implicated in myasthenia gravis. Rare Disease Advisor.</li>
-						<li>Beam, E.H. & Ballon, J. (2022). A decade of drug discovery for schizophrenia: TAAR1 and muscarinic agonists. CureSZ Foundation Newsletter.</li>
-						<li>Beam, E.H. (2020). A brief history of our language for the brain: Vocabulary, dictionary, and poetry. NeuWrite West Blog.</li>
-						<li>Beam, E.H. (2019). How the brain learns to learn. NeuWrite West Blog.</li>
-						<li>Beam, E.H. (2018). Resolving conflict in the medial frontal cortex. NeuWrite West Blog.</li>
-						<li>Beam, E.H. (2014). Brain and language on the fly: The neuroscience of linguistic improvisation. Harvard Science Review 27(2).</li>
-						<li>Beam, E.H. (2013). Data: The bigger the better? Harvard Science Review 27(1).</li>
-						<li>Beam, E.H. (2012). Creativity and the default network. Neurogenesis: The Undergraduate Journal of Neuroscience 2(1).</li>
-						<li>Beam, E.H. (2010). Sylvia Plath on edge: A case for the correlation of bipolar disorder and exceptional poetic creativity. Eruditio: Duke Humanities Journal 30(1).</li>
+						<li><a href="https://www.rarediseaseadvisor.com/news/multiple-immune-cell-types-checkpoint-implicated-myasthenia-gravis" target="_blank">Beam, E.H. (2022). Multiple immune cell types and a checkpoint implicated in myasthenia gravis. <i>Rare Disease Advisor</i>.</a></li>
+						<li><a href="https://curesz.org/2022-07-01-drug-discovery-for-schizophrenia" target="_blank">Beam, E.H. & Ballon, J. (2022). A decade of drug discovery for schizophrenia: TAAR1 and muscarinic agonists. <i>CureSZ Foundation Newsletter</i>.</a></li>
+						<li><a href="https://neuwritewest.squarespace.com/blog/a-brief-history-of-our-language-for-the-brain" target="_blank">Beam, E.H. (2020). A brief history of our language for the brain: Vocabulary, dictionary, and poetry. <i>NeuWrite West Blog</i>.</a></li>
+						<li><a href="https://www.neuwritewest.org/blog/how-the-brain-learns-to-learn" target="_blank">Beam, E.H. (2019). How the brain learns to learn. <i>NeuWrite West Blog</i>.</a></li>
+						<li><a href="https://www.neuwritewest.org/blog/resolving-conflict-in-the-medial-frontal-cortex-through-hierarchical-meta-analysis" target="_blank">Beam, E.H. (2018). Resolving conflict in the medial frontal cortex. <i>NeuWrite West Blog</i>.</a></li>
+						<li><a href="https://harvardsciencereview.org/2014/05/01/linguistic-improvisation" target="_blank">Beam, E.H. (2014). Brain and language on the fly: The neuroscience of linguistic improvisation. <i>Harvard Science Review</i> 27(2).</a></li>
+						<li><a href="https://harvardsciencereview.org/2014/01/23/data-the-bigger-the-better" target="_blank">Beam, E.H. (2013). Data: The bigger the better? Harvard Science Review 27(1).</a></li>
+						<li><a href="https://issuu.com/neurogenesis/docs/neurogenesisissue2/17" target="_blank">Beam, E.H. (2012). Creativity and the default network. <i>Neurogenesis: The Undergraduate Journal of Neuroscience</i> 2(1).</a></li>
+						<li><a href="https://issuu.com/dukeupb/docs/eruditio_2009-10" target="_blank">Beam, E.H. (2010). Sylvia Plath on edge: A case for the correlation of bipolar disorder and exceptional poetic creativity. <i>Eruditio: Duke Humanities Journal</i> 30(1).</a></li>
 					</ul>
 
 					<h3>Pre-Print Article</h3>
 					<ul>
-						<li>Beam, E.H., Potts, C., Poldrack, R.A., & Etkin, A. (2019). A computational knowledge engine for human neuroscience. bioRxiv. DOI: 10.1101/701540.</li>
+						<li><a href="https://www.biorxiv.org/content/10.1101/701540v1" target="_blank">Beam, E.H., Potts, C., Poldrack, R.A., & Etkin, A. (2019). A computational knowledge engine for human neuroscience. <i>bioRxiv</i>. DOI: 10.1101/701540.</a></li>
 					</ul>
 
 					<h3>Patent</h3>
 					<ul>
-						<li>Etkin, A. & Beam, E.H. (2020). Machine learning based generation of ontology for structural and functional mapping. US Patent 11526808B2.</li>
+						<li><a href="https://patents.google.com/patent/US11526808B2/en" target="_blank">Etkin, A. & Beam, E.H. (2020). Machine learning based generation of ontology for structural and functional mapping. US Patent 11526808B2.</a></li>
 					</ul>
 
 					<h3>Book Chapter</h3>
 					<ul>
-						<li>Jack, J., Appelbaum, L.G., Beam, E.H., Huettel, S.A., & Moody, J. (2017). Mapping rhetorical topologies in cognitive neuroscience. In L. Walsh & C. Boyle. (Eds.), Topologies as Techniques for a Post-Critical Rhetoric (pp. 125-150). New York, NY: Palgrave Macmillan.</li>
+						<li><a href="https://link.springer.com/chapter/10.1007/978-3-319-51268-6_7" target="_blank">Jack, J., Appelbaum, L.G., Beam, E.H., Huettel, S.A., & Moody, J. (2017). Mapping rhetorical topologies in cognitive neuroscience. In L. Walsh & C. Boyle. (Eds.), <i>Topologies as Techniques for a Post-Critical Rhetoric</i> (pp. 125-150). New York, NY: Palgrave Macmillan.</a></li>
 					</ul>
 
 					<h3>Theses</h3>
 					<ul>
-						<li>Beam, E.H. (2020). A data-driven ontology of brain function: Engineered, interrogated, and clinically applied. In fulfillment of the requirements for a PhD in the Neurosciences, Stanford University.</li>
+						<li><a href="https://www.proquest.com/openview/226643c8639741332f37b901bd89d005/1?pq-origsite=gscholar&cbl=18750&diss=y" target="_blank">Beam, E.H. (2020). A data-driven ontology of brain function: Engineered, interrogated, and clinically applied. In fulfillment of the requirements for a PhD in the Neurosciences, Stanford University.</a></li>
 						<li>Beam, E.H. (2013). Mapping the semantic structure of cognitive neuroimaging. In fulfillment of the requirements for Graduation with Distinction in Neuroscience, Duke University.</li>
 					</ul>
 
@@ -237,6 +244,46 @@
 						<li>Beam, E.H. & Huettel, S.A. (2013, April). Mapping the semantic structure of cognitive neuroscience. Atlantic Coast Conference Meeting of the Minds.</li>
 						<li>Beam, E.H., Appelbaum, L.G., Moody, J., & Huettel, S.A. (2011, November). Mapping the intrinsic structure of cognitive neuroscience. Society for Neuroscience Annual Meeting.​</li>
 					</ul>
+					<br><br>
+
+					<div class="horizontal-line"></div>
+
+					<br>
+					<h1>Funding</h1>
+					<table style="padding-left:25px;">
+					<tr>
+						<th style="width:80px; line-height:0px">&ensp;</th>
+						<th style="line-height:0px">&ensp;</th>
+					</tr>
+					<tr>
+						<td>2024-</td>
+						<td>Trailblazing Trainee Award, Stanford University, Department of Psychiatry and Behavioral Sciences</td>
+					</tr>
+					<tr>
+						<td>2020-22</td>
+						<td>Ruth L. Kirschstein National Research Service Award (F30), National Institutes of Health</td>
+					</tr>
+					<tr>
+						<td>2017-22</td>
+						<td>Medical Scientist Training Program (MSTP), National Institutes of Health</td>
+					</tr>
+					<tr>
+						<td>2016-17</td>
+						<td>Medical Scholars Research Fellowship, Stanford School of Medicine</td>
+					</tr>
+					<tr>
+						<td>2016</td>
+						<td>Pre-Doctoral Research Stipend (T32), Lab of Alan Schatzberg, Stanford University</td>
+					</tr>
+					<tr>
+						<td>2009-13</td>
+						<td>Angier B. Duke Full-Tuition Memorial Scholarship, Duke University</td>
+					</tr>
+					<tr>
+						<td>2009</td>
+						<td>Cleveland Technical Societies Scholarship</td>
+					</tr>
+					</table>
 
 					<!-- PAGE FOOTER -->
 					<br><br><hr>
@@ -261,15 +308,13 @@
 			<div class="section-content">
 				<section class="main-content poetry-thumbnail">
 
-					<br>
 					<h2>Selected Publications</h2>
-					<div class="poetry-container">
+					<div class="image-container" style="margin-top:8px; margin-bottom:8px">
 						<img class="poetry-thumbnail" onclick="window.open('documents/Archive_Spring_2010.pdf')" src="images/archive-spring-2010.png" alt="The Archive, Spring 2010" />&ensp;
 						<img class="poetry-thumbnail" onclick="window.open('documents/Archive_Spring_2011.pdf')" src="images/archive-spring-2011.png" alt="The Archive, Spring 2011" />&ensp;
 						<img class="poetry-thumbnail" onclick="window.open('documents/Archive_Fall_2011.pdf')" src="images/archive-fall-2011.png" alt="The Archive, Fall 2011" />
 					</div>
-					<br>
-					<div class="poetry-container">
+					<div class="image-container" style="margin-top:8px; margin-bottom:8px">
 						<img class="poetry-thumbnail" onclick="window.open('documents/Archive_Fall_2013.pdf')" src="images/archive-fall-2013.png" alt="The Archive, Fall 2013" />&ensp;
 						<img class="poetry-thumbnail" onclick="window.open('documents/Anastomosis_Spring_2019.pdf')" src="images/anastomosis-spring-2019.png" alt="Anastomosis, Spring 2019" />&ensp;
 						<img class="poetry-thumbnail" onclick="window.open('documents/Anastomosis_Fall_2019.pdf')" src="images/anastomosis-fall-2019.png" alt="Anastomosis, Fall 2019" />
@@ -279,13 +324,13 @@
 					<div class="horizontal-line"></div>
 
 					<br><br>
-					<div class="poetry-container">
-						<img style="width:100%; max-width:560px; border:none; border-radius:0px;" src="images/head-block-top.png" alt="The Head Block">
+					<div class="image-container">
+						<img style="width:100%; border:none; border-radius:0px;" src="images/head-block-top.png" alt="The Head Block">
 					</div>
-					<div class="poetry-container">
-						<div style="width:510px; background-color:#dbdbdb; padding:25px;">
-							<div style="margin-left:120px;">
-							<h1>The Head Block</h1>
+					<div class="image-container">
+						<div style="width:100%; background-color:#ebebeb; padding:25px;">
+							<div style="text-align:center">
+							<h2>The Head Block</h2>
 							In anatomy lab today we're faced<br>
 							with the aftermath of a revolution.<br>
 							French in the cringiest sense. Heads<br>
@@ -334,8 +379,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="poetry-container">
-							<img style="width:100%; max-width:560px; border:none; border-radius:0px;" src="images/head-block-bottom.png" alt="The Head Block">
+					<div class="image-container">
+							<img style="width:100%; border:none; border-radius:0px;" src="images/head-block-bottom.png" alt="The Head Block">
 					</div>
 					<br><br>
 
