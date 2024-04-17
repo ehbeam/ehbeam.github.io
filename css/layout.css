@@ -41,7 +41,7 @@ div.splash > .main-content > img {
 }
 
 li.main-nav.active {
-	flex: 11;
+	flex: 9.75;
 	cursor: default;
 }
 
@@ -51,7 +51,7 @@ li.main-nav.active .section-title {
 }
 
 li.main-nav.active .section-content {
-	flex: 10;
+	flex: 8.75;
 	transform: scaleX(1);
 	transform: scaleY(1);
 }
@@ -136,7 +136,7 @@ li.main-nav:not(.active) .section-content {
 	height: auto; 
 	width: 30%; 
 	border: 1px black solid;
-	border-radius: 20px;
+	border-radius: 12px;
 	filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
